@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import DisplayToDo from "./DisplayToDo";
 
 const ToDo=()=>{
 
@@ -8,9 +8,9 @@ const ToDo=()=>{
         <div>
             <h1>My todos</h1>
             <div>
-                {todo}
+                <DisplayToDo todo={todo}/>
             </div>
-            <button onClick={()=>{setTodo("New Todo")}}>Add Todo</button>
+            <button id="add-todo-btn" onClick={()=>{setTodo("New Todo")}}>Add Todo</button>
         </div>
     )
 }

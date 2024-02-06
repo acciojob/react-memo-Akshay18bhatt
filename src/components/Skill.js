@@ -20,7 +20,7 @@ const Skill= ()=>{
         <div>
             <h1>React Memo</h1>
             <form onSubmit={handleSubmit}>
-                <input onChange={(e)=>{setSkillInput(e.target.value)}} type="text" placeholder="Add skill"
+                <input id="skill-input" onChange={(e)=>{setSkillInput(e.target.value)}} type="text" placeholder="Add skill"
                     value={skillInput}
                 >
 

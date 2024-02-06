@@ -8,7 +8,7 @@ import Skill from "./Skill";
 const App= ()=>{
 
     return(
-        <div>
+        <div id="main">
             <ToDo/>
             <hr/>
             <Counter/>
